@@ -48,9 +48,28 @@
   </div>
 </nav>
 
-
     <div class="container">
-        <h1> Página inicial do site</h1>
+        <h1>Variaveis em php</h1>
+        <p>$numero = 10; //Aqui é uma variavel inteira</p>
+        <p>$string= "variavel";</p>
+        <p>$string1 = "variavel".$numero;</p>
+        <p>$string2 = "variavel $numero";</p>
+        <p>$valorDecimal = 10.50;</p>
+        <p>$Ativo = true;</p>
+        <p>/*Aqui é um bloco de comentario */</p>
+        <?php //Tudo que está entre as tags php não aparece na tela ?>
+
+        <?php //A não ser que usamos a função echo com string ?>
+        <?php 
+            echo "Hello Word";
+            echo "<br>";
+            $numero = 10;
+            $nome = "Sarah";
+            $frase1 = "<p> $nome camisa $numero frase com paragrafo </p>";
+            $frase2 = $nome." camisa ".$numero; //cocatenação das antigas
+            echo $frase1;
+            echo "$frase2 È o que tem dentro da variavel";
+        ?>
 
     </div>
 
