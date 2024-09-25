@@ -1,7 +1,7 @@
 <?php
         echo "<h1>Sorteio</h1>";
         echo "<h3>Vencedor: </h3>";
-        $array[14];
+        $sorteio[
             "JONAS SILVA JATOBA",   
             "MARCOS VINÍCIUS SANCHES CARDOSO",   
             "MARIANA DOS SANTOS",  
@@ -15,6 +15,10 @@
             "VANESSA ALVARES BERNARDO",      
             "VINICIUS GABRIEL GONÇALVES DOS SANTOS",    
             "VITOR TAKAYUKI HIROTOMI", 
-            "WYLLIAM DOS SANTOS FLORENTINO",
+            "WYLLIAM DOS SANTOS FLORENTINO",];
+
+    $vencedor = array_rand($sorteio);
+
+    echo "O vencedor sorteado foi: " + $sorteio[$vencedor];
     
 ?>
