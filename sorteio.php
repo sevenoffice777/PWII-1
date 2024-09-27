@@ -15,7 +15,7 @@
             "VANESSA ALVARES BERNARDO",      
             "VINICIUS GABRIEL GONÇALVES DOS SANTOS",    
             "VITOR TAKAYUKI HIROTOMI", 
-            "WYLLIAM DOS SANTOS FLORENTINO",];
+            "WYLLIAM DOS SANTOS FLORENTINO"];
 
     $vencedor = array_rand($sorteio);
 
