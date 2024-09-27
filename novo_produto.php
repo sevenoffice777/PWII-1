@@ -21,7 +21,11 @@
         else if(empty($_POST["datavalidade"])){
             echo "<br><div class = 'alert alert-danger'>
             Campo data de validade não pode estar em branco</div>";
-        }}
+        }else{
+            //Executa a lógica do programa
+            //Salvar no banco
+        }
+    }
 ?>
 
 
